@@ -13,6 +13,7 @@
 		0C2EB0A021565B6900347124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB09E21565B6900347124 /* Main.storyboard */; };
 		0C2EB0A221565B6B00347124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0A121565B6B00347124 /* Assets.xcassets */; };
 		0C2EB0A521565B6B00347124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0A321565B6B00347124 /* LaunchScreen.storyboard */; };
+		0C2EB0B021565BC900347124 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0AF21565BC900347124 /* podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0C2EB0A121565B6B00347124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2EB0A421565B6B00347124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2EB0A621565B6B00347124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2EB0AF21565BC900347124 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,11 @@
 		0C2EB08C21565B6900347124 = {
 			isa = PBXGroup;
 			children = (
+				0C2EB09E21565B6900347124 /* Main.storyboard */,
+				0C2EB0A321565B6B00347124 /* LaunchScreen.storyboard */,
+				0C2EB0AE21565B9F00347124 /* controller */,
+				0C2EB0AD21565B9900347124 /* view */,
+				0C2EB0AC21565B9300347124 /* Model */,
 				0C2EB09721565B6900347124 /* RunTracer */,
 				0C2EB09621565B6900347124 /* Products */,
 			);
@@ -56,15 +63,35 @@
 		0C2EB09721565B6900347124 /* RunTracer */ = {
 			isa = PBXGroup;
 			children = (
+				0C2EB0A121565B6B00347124 /* Assets.xcassets */,
+				0C2EB0A621565B6B00347124 /* Info.plist */,
+				0C2EB0AF21565BC900347124 /* podfile */,
+			);
+			path = RunTracer;
+			sourceTree = "<group>";
+		};
+		0C2EB0AC21565B9300347124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C2EB0AD21565B9900347124 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0C2EB0AE21565B9F00347124 /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				0C2EB09821565B6900347124 /* AppDelegate.swift */,
 				0C2EB09A21565B6900347124 /* FirstViewController.swift */,
 				0C2EB09C21565B6900347124 /* SecondViewController.swift */,
-				0C2EB09E21565B6900347124 /* Main.storyboard */,
-				0C2EB0A121565B6B00347124 /* Assets.xcassets */,
-				0C2EB0A321565B6B00347124 /* LaunchScreen.storyboard */,
-				0C2EB0A621565B6B00347124 /* Info.plist */,
 			);
-			path = RunTracer;
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				0C2EB0A521565B6B00347124 /* LaunchScreen.storyboard in Resources */,
 				0C2EB0A221565B6B00347124 /* Assets.xcassets in Resources */,
+				0C2EB0B021565BC900347124 /* podfile in Resources */,
 				0C2EB0A021565B6900347124 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2F7E3DYT5;
 				INFOPLIST_FILE = RunTracer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2F7E3DYT5;
 				INFOPLIST_FILE = RunTracer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
