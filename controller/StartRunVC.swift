@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  StartRunVC.swift
 //  RunTracer
 //
 //  Created by Harshit Satyaseel on 22/09/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class StartRunVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
