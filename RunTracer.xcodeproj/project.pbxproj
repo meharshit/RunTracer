@@ -14,6 +14,8 @@
 		0C2EB0A221565B6B00347124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0A121565B6B00347124 /* Assets.xcassets */; };
 		0C2EB0A521565B6B00347124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0A321565B6B00347124 /* LaunchScreen.storyboard */; };
 		0C2EB0B021565BC900347124 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB0AF21565BC900347124 /* podfile */; };
+		0C3D1FAA2172035100B15B9C /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D1FA92172035100B15B9C /* CurrentRunVC.swift */; };
+		0C3D1FAC2172078A00B15B9C /* locationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D1FAB2172078A00B15B9C /* locationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0C2EB0A421565B6B00347124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2EB0A621565B6B00347124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2EB0AF21565BC900347124 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		0C3D1FA92172035100B15B9C /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		0C3D1FAB2172078A00B15B9C /* locationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				0C2EB09821565B6900347124 /* AppDelegate.swift */,
+				0C3D1FAB2172078A00B15B9C /* locationVC.swift */,
 				0C2EB09A21565B6900347124 /* StartRunVC.swift */,
 				0C2EB09C21565B6900347124 /* RunLogVC.swift */,
+				0C3D1FA92172035100B15B9C /* CurrentRunVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2EB09D21565B6900347124 /* RunLogVC.swift in Sources */,
+				0C3D1FAC2172078A00B15B9C /* locationVC.swift in Sources */,
 				0C2EB09921565B6900347124 /* AppDelegate.swift in Sources */,
+				0C3D1FAA2172035100B15B9C /* CurrentRunVC.swift in Sources */,
 				0C2EB09B21565B6900347124 /* StartRunVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
